@@ -1,11 +1,11 @@
 Name:		python-memcached
-Version:	1.43
-Release:	%mkrel 3
+Version:	1.45
+Release:	%mkrel 1
 Summary:	Python interface to memcached
 Group:		Development/Python
 License:	Python Software Foundation License
 URL:		http://www.tummy.com/Community/software/python-memcached/
-Source0:	ftp://ftp.tummy.com/pub/python-memcached/%{name}-%{version}.tar.bz2
+Source0:	ftp://ftp.tummy.com/pub/python-memcached/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:	noarch
 %py_requires	-d
