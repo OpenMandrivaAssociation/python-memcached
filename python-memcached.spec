@@ -1,6 +1,6 @@
 Name:		python-memcached
-Version:	1.45
-Release:	%mkrel 2
+Version:	1.47
+Release:	%mkrel 1
 Summary:	Python interface to memcached
 Group:		Development/Python
 License:	Python Software Foundation License
