@@ -32,7 +32,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%doc ChangeLog PKG-INFO README
+%doc ChangeLog PKG-INFO 
 %{python_sitelib}/*
 
 
