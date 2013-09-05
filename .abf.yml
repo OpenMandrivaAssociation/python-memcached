@@ -1,2 +1,4 @@
+removed_sources:
+  python-memcached-1.47.tar.gz: 682f491a940dc73f97a5c6d6f027d6dd1a4a8c19
 sources:
-  "python-memcached-1.47.tar.gz": 682f491a940dc73f97a5c6d6f027d6dd1a4a8c19
+  python-memcached-1.53.tar.gz: 5c08266c9d8875807ea9a5383d5ae10061e65c59

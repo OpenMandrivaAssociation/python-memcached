@@ -1,11 +1,11 @@
 Name:		python-memcached
-Version:	1.47
-Release:	%mkrel 1
+Version:	1.53
+Release:	1
 Summary:	Python interface to memcached
 Group:		Development/Python
 License:	Python Software Foundation License
 URL:		http://www.tummy.com/Community/software/python-memcached/
-Source0:	ftp://ftp.tummy.com/pub/python-memcached/%{name}-%{version}.tar.gz
+Source0:	ftp://ftp.tummy.com:21/pub/python-memcached/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:	noarch
 %py_requires	-d
@@ -32,7 +32,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%doc ChangeLog PKG-INFO README
+%doc ChangeLog PKG-INFO 
 %{python_sitelib}/*
 
 
@@ -65,3 +65,4 @@ rm -rf %{buildroot}
 
 * Mon Sep 08 2008 Luca Berra <bluca@mandriva.org> 1.43-1mdv2008.1
 - initial mandriva package
+
