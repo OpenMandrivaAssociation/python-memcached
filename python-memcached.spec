@@ -1,6 +1,6 @@
 Name:		python-memcached
 Version:	1.53
-Release:	1
+Release:	2
 Summary:	Python interface to memcached
 
 Group:		Development/Python
