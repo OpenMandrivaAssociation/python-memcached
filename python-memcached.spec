@@ -5,7 +5,7 @@ Summary:	Python interface to memcached
 
 Group:		Development/Python
 License:	Python Software Foundation License
-URL:		http://www.tummy.com/Community/software/python-memcached/
+URL:		https://www.tummy.com/Community/software/python-memcached/
 Source0:	ftp://ftp.tummy.com:21/pub/python-memcached/%{name}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	python-devel
